@@ -42,11 +42,26 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 **Preguntas**
 
 * ¿Qué es un Azure Function? 
-    - casa
-* ¿Qué es serverless?
-* ¿Qué es el runtime y que implica seleccionarlo al momento de crear el Function App?
-* ¿Por qué es necesario crear un Storage Account de la mano de un Function App?
+    - Azure Function nos permite ejecutar pequeños y  simples (tanto como lo desee el desarrollador) fragmentos de codigos en la nube. Esto sin la necesidad de preocuparce de administrar la infraestructura como por ejemplo crear una maquina virtual configurar su red, etc. 
+    
+* ¿Qué es serverless? 
+    -  Como anteriormente se describia en Azure Function no nos tenemos que preocupar por la infraestructura, esto es lo que caracteriza principalmente el significado de serverless, el proveedor (en este caso Azure) en la nube  es responsable de ejecutar un fragmento de código mediante la asignación dinámica de los recursos. Y cobrando solo por la cantidad de recursos utilizados para ejecutar el código. El código, generalmente, se ejecuta dentro de contenedores sin estado que pueden ser activados por una variedad de eventos que incluyen solicitudes HTTP
+    
+* ¿Qué es el runtime y que implica seleccionarlo al momento de crear el Function App? 
+    - En los contenedores  que se ejecutan estos codigos, tienen su propio sistema operativo o tambien llamado runtime que por lo general son mas simples y menos pesados que un sistema operativo habitual, permitiendo asi ejecutar los programas. Como por ejemplo dockers que su motor provee instancias en cada servidor en el que desee ejecutar contenedores y proporciona un conjunto sencillo de comandos que puede utilizar para crear, iniciar o detener contenedores.
+
+* ¿Por qué es necesario crear un Storage Account de la mano de un Function App? 
+    -  Este es neserio para definir un espacio unicos  de almacenamiento en la nube, en los que se guardaran los blobs, archivos , colas, tablas entre otros.
+    
 * ¿Cuáles son los tipos de planes para un Function App?, ¿En qué se diferencias?, mencione ventajas y desventajas de cada uno de ellos.
-* ¿Por qué la memoization falla o no funciona de forma correcta?
-* ¿Cómo funciona el sistema de facturación de las Function App?
+    -  Consumption: El plan de consumo de Azure Functions factura en función del consumo de recursos y las ejecuciones que se hace por cada segundo, este plan viene con una concesión mensual de 1.000.000 de solicitudes y 400.000 Gbs de consumo de recursos por mes y por suscripción en el precio de pago por uso en todas las aplicaciones de funciones de esa suscripción.
+
+    - Premium plan: El plan Premium ofrece básicamente las mismas funciones y el mismo mecanismo de escalado que usa el plan Consumption sin arranque en frio. Este plan a diferencia del consumption cuenta con un rendimiento mucho mejor y adicionalmente acceso a VNET. Este plan factura por segundo en función del numero de vCPUs y Gbs que consuman sus funciones Premium. 
+    
+* ¿Por qué la memorizacion falla o no funciona de forma correcta? 
+     - Por lo general esos contenedores tienen un espacio de memoria definido, para casos muy grandes en el script de realizar la funcion fibonacci puede ser que se la memoria no de para calcular casos muy grandes dando como resultado fallas otra razón son que si pueda realizar este calculo pero la magnitud del número calculado es demasiado grande dando como resultados valores incorrectos. 
+     
+* ¿Cómo funciona el sistema de facturación de las Function App? 
+     - Como se dijo anteriormente los funciones permiten ejecutar simples scrypts por tal razón facturan en función del consumo de recursos y las ejecuciones por segundo
+     
 * Informe
