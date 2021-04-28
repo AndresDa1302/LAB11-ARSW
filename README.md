@@ -85,4 +85,10 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
     - Con dinamica
 ![](images/rendimiento%20con%20dinamica.PNG)  
     - Sin dinamica 
-![](images/rendimiento%20sin%20dinamica.PNG) 
+![](images/rendimiento%20sin%20dinamica.PNG)  
+
+
+## Autores 
+
+* Andres Felipe Davila (Guaton)
+* David Leonardo Coronado 
