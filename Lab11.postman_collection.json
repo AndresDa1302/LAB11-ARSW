@@ -1,0 +1,319 @@
+{
+	"info": {
+		"_postman_id": "fd135bd3-a4f6-4aea-84ea-3b5910433a89",
+		"name": "Lab11",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "prueba 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nth\": 1001000\r\n}"
+				},
+				"url": {
+					"raw": "https://proyectocoronadodavila.azurewebsites.net/api/fibonacci?",
+					"protocol": "https",
+					"host": [
+						"proyectocoronadodavila",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"fibonacci"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "prueba 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nth\": 1000\r\n}"
+				},
+				"url": {
+					"raw": "https://proyectocoronadodavila.azurewebsites.net/api/fibonacci?",
+					"protocol": "https",
+					"host": [
+						"proyectocoronadodavila",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"fibonacci"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "prueba 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nth\": 1100000\r\n}"
+				},
+				"url": {
+					"raw": "https://proyectocoronadodavila.azurewebsites.net/api/fibonacci?",
+					"protocol": "https",
+					"host": [
+						"proyectocoronadodavila",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"fibonacci"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "prueba 4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nth\": 1000001\r\n}"
+				},
+				"url": {
+					"raw": "https://proyectocoronadodavila.azurewebsites.net/api/fibonacci?",
+					"protocol": "https",
+					"host": [
+						"proyectocoronadodavila",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"fibonacci"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "prueba 5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nth\": 1800000\r\n}"
+				},
+				"url": {
+					"raw": "https://proyectocoronadodavila.azurewebsites.net/api/fibonacci?",
+					"protocol": "https",
+					"host": [
+						"proyectocoronadodavila",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"fibonacci"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "prueba 6",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nth\": 1900001\r\n}"
+				},
+				"url": {
+					"raw": "https://proyectocoronadodavila.azurewebsites.net/api/fibonacci?",
+					"protocol": "https",
+					"host": [
+						"proyectocoronadodavila",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"fibonacci"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "prueba 7",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nth\": 1500001\r\n}"
+				},
+				"url": {
+					"raw": "https://proyectocoronadodavila.azurewebsites.net/api/fibonacci?",
+					"protocol": "https",
+					"host": [
+						"proyectocoronadodavila",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"fibonacci"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "prueba 8",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nth\": 1200001\r\n}"
+				},
+				"url": {
+					"raw": "https://proyectocoronadodavila.azurewebsites.net/api/fibonacci?",
+					"protocol": "https",
+					"host": [
+						"proyectocoronadodavila",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"fibonacci"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "prueba 9",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nth\": 1300001\r\n}"
+				},
+				"url": {
+					"raw": "https://proyectocoronadodavila.azurewebsites.net/api/fibonacci?",
+					"protocol": "https",
+					"host": [
+						"proyectocoronadodavila",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"fibonacci"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "prueba 10",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nth\": 1050001\r\n}"
+				},
+				"url": {
+					"raw": "https://proyectocoronadodavila.azurewebsites.net/api/fibonacci?",
+					"protocol": "https",
+					"host": [
+						"proyectocoronadodavila",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"fibonacci"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
