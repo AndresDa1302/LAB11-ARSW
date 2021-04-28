@@ -68,6 +68,19 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 
 ## Informe 
 
-* La siguente imagen podemos ver el proceso de creación y ejeción de la function en Azure. 
+* En la siguente imagen podemos ver el proceso de creación y ejecución de la function en Azure. 
 ![](images/fibonacci%20memo.PNG)
 
+* Acontinuación podemos ver los resultados al momento de ejecutar las pruebas con Postman, realizando con y sin la tecníca de memorización. ( El proyecto por defecto se podria decir que existia una memorización parcial ya que este no era recurrentemente del todo, impidiendo asi que se realizarán de nuevo estos calculos) 
+
+    - Con dinamica
+![](images/pruebas%20con%20dinamica.PNG) 
+    - Sin dinamica 
+![](images/pruebas%20sin%20dinamica.PNG)  
+
+
+* Rendimiento  
+    - Con dinamica
+![](images/rendimiento%20con%20dinamica.PNG)  
+    - Sin dinamica 
+![](images/rendimiento%20sin%20dinamica.PNG) 
