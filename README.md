@@ -69,5 +69,5 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 ## Informe 
 
 * La siguente imagen podemos ver el proceso de creación y ejeción de la function en Azure. 
-![](images/fibonacci memo.PNG)
+![](images/fibonacci%20memo.PNG)
 
